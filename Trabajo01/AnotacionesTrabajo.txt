@@ -13,7 +13,7 @@ clientes
 ventas
 
 entidad producto
-id
+id Producto
 tipo
 nombre
 cantidad
