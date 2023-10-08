@@ -51,3 +51,6 @@ listado metodos ventas
 traer lista ventas(get all)
 (fecha , id del cliente y listado de productos
 con cantidad del mismo)
+
+
+como hacer el domcumento
