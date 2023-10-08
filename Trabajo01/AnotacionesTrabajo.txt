@@ -1,0 +1,53 @@
+anotacion trabajo mcga
+
+trabajo abm node js
+
+usar mockaroo
+
+crear 3 entidades
+
+productos
+
+clientes
+
+ventas
+
+entidad producto
+id
+tipo
+nombre
+cantidad
+
+entidad cliente
+id
+nombre
+apellido
+direccion
+telefono
+correo
+genero
+
+entidad venta
+id venta
+fecha
+importe
+id cliente
+listado productos id
+cantidad productos id
+
+listado de metodos producto
+traer lista productos(get all)
+traer un producto(get{id})
+agregar producto(post{producto})
+delete(delete{producto})
+
+listado de metodos clientes
+traer lista clientes(get all)
+traer un cliente(get{id})
+agregar producto(post{cliente})
+delete(delete{cliente})
+
+listado metodos ventas
+traer lista ventas(get all)
+(fecha , id del cliente y listado de productos
+con cantidad del mismo)
