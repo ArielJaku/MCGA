@@ -1,6 +1,9 @@
 var {cargarProductos} = require('./productos_model')
 var express = require('express')
 var server = express()
+const bodyParser = require('body-parser'); 
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: false }));
 var port = 3000;
 server.use(express.urlencoded({extended: false}));
 
@@ -20,22 +23,20 @@ server.delete('/deleteProducto/:id', function(req,res){
    res.end(JSON.stringify(productos));
 })
 
-server.post('/postProducto/:id:nombre:tipo', function(req,res){
-   var id = req.params.id;
-   var nombre = req.params.nombre;
-   var tipo = req.params.tipo;
-   var producto = {
-      "producto11": {
-          "id":11,
-          "nombre":"pizza",
-          "tipo":"Alimentos elaborados"
-        },
-   }    
+server.post('/postProducto/', function(req,res){   
    var productos = cargarProductos();
-   productos["producto11"] = producto["producto11"];
-   console.log(id)
-   console.log(nombre)
-   console.log(tipo);
+   var id = req.body.id;
+   var nombre = req.body.nombre;
+   var tipo = req.body.tipo;
+   var nom = "producto" + id
+   var producto = {
+      [nom] : {
+          "id": id,
+          "nombre":nombre,
+          "tipo":tipo
+        },
+   } 
+   productos[nom] = producto[nom];
    res.end(JSON.stringify(productos))
 })
 
