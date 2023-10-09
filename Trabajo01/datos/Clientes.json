@@ -1,0 +1,93 @@
+{
+  "cliente1": {
+    "id":1,
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",
+    "genero":"verduleria"    
+  },
+
+  "cliente2":  {
+    "id":2,
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+"direccion":"verduleria",
+"telefono":"verduleria",
+"correo":"verduleria",
+"genero":"verduleria"    
+  },
+
+  "cliente3":  {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+"direccion":"verduleria",
+"telefono":"verduleria",
+"correo":"verduleria",
+"genero":"verduleria"    
+  },
+
+  "cliente4": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+"direccion":"verduleria",
+"telefono":"verduleria",
+"correo":"verduleria",
+"genero":"verduleria"    
+  },
+
+  "cliente5": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",
+    "genero":"verduleria"    
+  },
+
+  "cliente6": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",
+    "genero":"verduleria"    
+  },
+
+  "cliente7": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",
+    "genero":"verduleria"    
+  },
+
+  "cliente8": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",
+    "genero":"verduleria"    
+  },
+
+  "cliente9": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",  
+    "genero":"verduleria"    
+  },
+
+  "cliente10": {
+    "nombre":"lechuga",
+    "apellido":"verduleria",
+    "direccion":"verduleria",
+    "telefono":"verduleria",
+    "correo":"verduleria",  
+    "genero":"verduleria"    
+  }
+}
