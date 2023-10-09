@@ -1,0 +1,61 @@
+{
+  "producto1": {
+    "id":1,
+    "nombre":"lechuga",
+    "tipo":"verduleria"    
+  },
+
+  "producto2":  {
+    "id":2,
+    "nombre":"vino Malbec",
+    "tipo":"bebidas con alcohol"
+  },
+
+  "producto3":  {
+    "id":3,
+    "nombre":"gaseosa de limon",
+    "tipo":"bebidas sin alcohol"
+  },
+
+  "producto4": {
+    "id":4,
+    "nombre":"empanada",
+    "tipo":"preparados"
+  },
+
+  "producto5": {
+    "id":5,
+    "nombre":"lavandina",
+    "tipo":"Limpieza"
+  },
+
+  "producto6": {
+    "id":6,
+    "nombre":"acondicionador",
+    "tipo":"perfumeria"
+  },
+
+  "producto7": {
+    "id":7,
+    "nombre":"Televisor",
+    "tipo":"electro"
+  },
+
+  "producto8": {
+    "id":8,
+    "nombre":"banana",
+    "tipo":"verduleria"
+  },
+
+  "producto9": {
+    "id":9,
+    "nombre":"Vano Merlot",
+    "tipo":"bebidas con alcohol"
+  },
+
+  "producto10": {
+    "id":10,
+    "nombre":"Gaseosa de cola",
+    "tipo":"bebidas sin alcohol"
+  }
+}
