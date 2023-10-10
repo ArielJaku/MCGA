@@ -10,10 +10,13 @@ server.use(express.urlencoded({extended: false}));
 
 //ESPACIO PARA PRODUCTOS
 server.get('/getProductos', function (req, res) {
-   res.send(cargarProductos())
+   res.send(200,cargarProductos())
 });
 
 server.get('/getProducto/:id', function (req, res) {
+   var id = parseInt(req.params.id);
+   console.log("hola muindo");
+
    var productos = cargarProductos();      
    var producto = productos["producto" + req.params.id]    
    res.end(JSON.stringify(producto));
@@ -84,5 +87,5 @@ server.post('/postCliente/', function(req,res){
 })
 
 server.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`El servidor se encuentra escuchando en el puerto ${port}`)
   })
