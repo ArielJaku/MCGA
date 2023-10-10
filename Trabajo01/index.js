@@ -15,11 +15,17 @@ server.get('/getProductos', function (req, res) {
 
 server.get('/getProducto/:id', function (req, res) {
    var id = parseInt(req.params.id);
-   console.log("hola muindo");
+   //console.log(id);
 
    var productos = cargarProductos();      
    var producto = productos["producto" + req.params.id]    
    res.end(JSON.stringify(producto));
+
+   // Verificar si el id no es un numero o es menor que 1
+   if (isNaN(id) || id < 1) {
+      // Id inválido, almacenar un mensaje de error en el objeto de respuesta
+      console.log('Id inválido. Por favor, proporcione un id válido mayor o igual a 1.');
+   }
 });
 
 server.delete('/deleteProducto/:id', function(req,res){
