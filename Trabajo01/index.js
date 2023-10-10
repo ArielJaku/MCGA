@@ -64,9 +64,16 @@ server.get('/getClientes', function (req, res) {
 });
 
 server.get('/getCliente/:id', function (req, res) {
+   var id = parseInt(req.params.id);
    var clientes = cargarClientes();      
    var cliente = clientes["cliente" + req.params.id]    
    res.end(JSON.stringify(cliente));
+
+   // Verificar si el id no es un numero o es menor que 1
+   if (isNaN(id) || id < 1) {
+      // Id inválido, almacenar un mensaje de error en el objeto de respuesta
+      console.log('Id inválido. Por favor, proporcione un id válido mayor o igual a 1.');
+   }
 });
 
 server.delete('/deleteCliente/:id', function(req,res){
