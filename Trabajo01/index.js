@@ -41,15 +41,23 @@ server.post('/postProducto/', function(req,res){
    var tipo = req.body.tipo;
    var nom = "producto" + id
    var producto = {
-      [nom] : {
-          "id": id,
-          "nombre":nombre,
-          "tipo":tipo
-        },
+   [nom] : {
+       "id": id,
+       "nombre":nombre,
+       "tipo":tipo
+     },
    }
    productos[nom] = producto[nom];
-   res.end(JSON.stringify(productos))
+
+   // Validacion de variables
+   if (typeof id === 'number' &&  id < 1 && typeof nombre === 'string' && typeof tipo === 'string') {
+      res.end(JSON.stringify(productos)) 
+   }else{   
+      console.log('Controlar tipos de datos ingresados');
+   }
 })
+
+
 //ESPACIO PARA CLIENTES
 server.get('/getClientes', function (req, res) {
    res.send(cargarClientes())
