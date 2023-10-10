@@ -1,93 +1,93 @@
 {
   "cliente1": {
     "id":1,
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",
-    "genero":"verduleria"    
+    "nombre":"Juan",
+    "apellido":"Perotti",
+    "direccion":"Pellegrini 3490",
+    "telefono":"3413098765",
+    "correo":"perottijuan@gmail.com",
+    "genero":"Masculino"    
   },
 
   "cliente2":  {
     "id":2,
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-"direccion":"verduleria",
-"telefono":"verduleria",
-"correo":"verduleria",
-"genero":"verduleria"    
+    "nombre":"Carla",
+    "apellido":"Peralta",
+"direccion":"montevideo 2987",
+"telefono":"3413126798",
+"correo":"peraltacarla@gmail.com",
+"genero":"Femenino"    
   },
 
   "cliente3":  {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-"direccion":"verduleria",
-"telefono":"verduleria",
-"correo":"verduleria",
-"genero":"verduleria"    
+    "nombre":"Carlos",
+    "apellido":"Ferreira",
+"direccion":"zeballos 2100",
+"telefono":"3416874398",
+"correo":"ferreiracarlos@gmail.com",
+"genero":"Masculino"    
   },
 
   "cliente4": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-"direccion":"verduleria",
-"telefono":"verduleria",
-"correo":"verduleria",
-"genero":"verduleria"    
+    "nombre":"Paula",
+    "apellido":"Carletti",
+"direccion":"italia 680",
+"telefono":"3426984523",
+"correo":"carlettipaula@gmail.com",
+"genero":"Femenino"    
   },
 
   "cliente5": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",
-    "genero":"verduleria"    
+    "nombre":"Daniel",
+    "apellido":"Girardi",
+    "direccion":"Pellegrini 790",
+    "telefono":"3400659423",
+    "correo":"girardidaniel@gmail.com",
+    "genero":"Masculino"    
   },
 
   "cliente6": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",
-    "genero":"verduleria"    
+    "nombre":"Valeria",
+    "apellido":"Gimenez",
+    "direccion":"Suipacha 1910",
+    "telefono":"1178569012",
+    "correo":"gimenezvaleria@gmail.com",
+    "genero":"Femenino"    
   },
 
   "cliente7": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",
-    "genero":"verduleria"    
+    "nombre":"Jose",
+    "apellido":"Muñoz",
+    "direccion":"Avellaneda 1259",
+    "telefono":"3435246893",
+    "correo":"muñozjose@gmail.com",
+    "genero":"Masculino"    
   },
 
   "cliente8": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",
-    "genero":"verduleria"    
+    "nombre":"Alejandra",
+    "apellido":"Perez",
+    "direccion":"Francia 1360",
+    "telefono":"3423029348",
+    "correo":"perezalejandra@gmail.com",
+    "genero":"Femenino"    
   },
 
   "cliente9": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",  
-    "genero":"verduleria"    
+    "nombre":"Pedro",
+    "apellido":"Gonzalez",
+    "direccion":"Castellanos 1420",
+    "telefono":"3404594728",
+    "correo":"gonzalezpedro@gmail.com",  
+    "genero":"Masculino"    
   },
 
   "cliente10": {
-    "nombre":"lechuga",
-    "apellido":"verduleria",
-    "direccion":"verduleria",
-    "telefono":"verduleria",
-    "correo":"verduleria",  
-    "genero":"verduleria"    
+    "nombre":"Ezequiel",
+    "apellido":"Gomez",
+    "direccion":"Constitucion 1510",
+    "telefono":"3404387568",
+    "correo":"gomezezequiel@gmail.com",  
+    "genero":"Masculino"    
   }
 }
